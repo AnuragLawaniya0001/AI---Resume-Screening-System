@@ -1,0 +1,6 @@
+pdfplumber
+pytesseract
+Pillow
+opencv-python
+python-docx
+PyMuPDF

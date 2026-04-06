@@ -1,0 +1,45 @@
+{
+  "bert_name": "bert-base-uncased",
+  "max_len": 512,
+  "dropout": 0.3,
+  "max_score": 25.0,
+  "targets": [
+    "experience_score",
+    "education_score",
+    "skills_score",
+    "structure_score"
+  ],
+  "best_val_loss": 4.0779578936727425,
+  "history": [
+    {
+      "epoch": 1,
+      "train_loss": 24.895674155423634,
+      "val_loss": 11.143737659119724,
+      "total_mae": 5.299603462219238
+    },
+    {
+      "epoch": 2,
+      "train_loss": 9.771704112474447,
+      "val_loss": 7.165914861779464,
+      "total_mae": 4.619183540344238
+    },
+    {
+      "epoch": 3,
+      "train_loss": 6.110998181340089,
+      "val_loss": 4.55450259384356,
+      "total_mae": 3.190171241760254
+    },
+    {
+      "epoch": 4,
+      "train_loss": 4.86344737393729,
+      "val_loss": 4.217544778397209,
+      "total_mae": 2.9243054389953613
+    },
+    {
+      "epoch": 5,
+      "train_loss": 4.319592685161339,
+      "val_loss": 4.0779578936727425,
+      "total_mae": 2.9027516841888428
+    }
+  ]
+}
